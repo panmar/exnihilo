@@ -34,7 +34,7 @@
     }
 
     a {
-        color: #294181;
+        color: #4d300f;
         text-decoration: none;
     }
 
@@ -88,23 +88,19 @@
         <h1> Exnihilo </h1>
     </header>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+    <p><i>Exnihilo</i> is a tactical, stealth-oriented TPP game, inspired by
+        <a href="https://en.wikipedia.org/wiki/Commandos_(series)" target="_blank">a Commandos series</a>, where a
+        player is
+        challenged to cross a map without alerting guards. The project was written in C# using XNA 3.1 framework in
+        cooperation with <a href="https://www.linkedin.com/in/michał-niewiadomski-087455153/" target="_blank">Michał
+            Niewiadomski</a>, who designed gameplay rules.
+    </p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+    <p>
+        The main implementation focus was put on player-enemy interations. Enemy behavour is modeled using
+        <a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank">FSM</a>.
+        The pathfinding is based on static node graph. The game includes a in-game map editor.
+    </p>
 
     <div class="photo-gallery">
         <div class="row">
@@ -119,11 +115,10 @@
         </div>
     </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+    <p>A few years later I reimplemented parts the project with XNA 4. I created a more intuitive character controller,
+        added snow particles with snow accumulation. I also implemented dual paraboloid shadowmaps for point lights support,
+        which replaced older, plane-projected shadows. Unfortunatelly, short after that Microsoft abandoned XNA which made me put
+        off this project into the drawer. It would be nice to rewrite it in more durable technology some day.</p>
 
     <div class="photo-gallery">
         <div class="row">
